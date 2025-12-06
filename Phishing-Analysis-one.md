@@ -92,7 +92,7 @@ The incident followed a standard financially motivated attack chain:
 
 These recommendations focus on hardening security controls and training employees to prevent recurrence.
 
-### 6.1 Enhanced Technical Controls (Email Gateway & Infrastructure)
+### 7.1 Enhanced Technical Controls (Email Gateway & Infrastructure)
 
 These recommendations focus on hardening the organization's email infrastructure to automatically block or flag similar threats in the future.
 
@@ -100,7 +100,7 @@ These recommendations focus on hardening the organization's email infrastructure
 - **Block Malicious File Hashes and Attachment Types:** The extracted SHA256 hash must be immediately pushed to the Endpoint Detection and Response (**EDR**) system and Email Security Gateway to prevent future execution. Furthermore, update email gateway rules to quarantine or strip known high-risk, compressed file types like **.CAB** and **.RAR** when received from external sources, as these are commonly used to mask malicious payloads.
 - **Implement Anti-Impersonation and Display Name Rules:** Configure the email gateway's anti-spoofing policies to flag or block emails where the sender's friendly **Display Name** matches a known internal user or customer, but the actual sending email address is external and unverified. This directly addresses the social engineering tactic used in this incident.
 
-### 6.2 User Education and Awareness
+### 7.2 User Education and Awareness
 
 These recommendations target the human firewall, ensuring employees are equipped to recognize and report sophisticated phishing attempts.
 
