@@ -60,13 +60,11 @@ The explicit **SPF `fail`** confirms that the "From" address (`info@mutawamarine
 
 The incident followed a standard financially motivated attack chain:
 
-1.  **Profiling:** Attacker profiles the target using publicly available information on Greenholt PLC and its staff.
-2.  **Spoofing:** Attacker spoofs a customer's identity using a misconfigured domain to appear legitimate.
-3.  **Lure Crafting:** Crafts a phishing lure referencing a fake SWIFT payment and attaches a "receipt" to trigger urgency and financial motivation.
-4.  **Payload Delivery:** Embeds the trojan payload inside a compressed malicious file (CAB/RAR) disguised as a payment document.
-5.  **Delivery:** Delivers the phishing email directly to the Sales Executive’s inbox, bypassing weak authentication controls.
-6.  **Malware Execution:** Relies on user interaction (opening/extracting the attachment) to initiate malware execution.
-7.  **Containment:** SOC intervention stops the attack after the user reports the email, leading to IOC extraction and threat containment.
+1.  **Spoofing:** Attacker spoofed a customer's identity using a misconfigured domain to appear legitimate.
+2.  **Lure Crafting:** The attacer Crafted a phishing lure referencing a fake SWIFT payment and attached a "receipt" to trigger urgency and financial motivation.
+3.  **Payload Delivery:** The Attacker Embeded  trojan payload inside the  compressed malicious file (CAB/RAR) disguised as a payment document.
+4.  **Delivery:**The attacker Delivered the phishing email directly to the Sales Executive’s inbox, bypassing weak authentication controls.
+5.  **Malware Execution:** Relies on user interaction (extracting the attachment) to initiate malware execution.
 
 ---
 
